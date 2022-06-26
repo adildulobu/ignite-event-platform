@@ -48,8 +48,8 @@ export function Video(props: videoProps){
 
     if(!data) {
         return(
-            <div className="flex-1 items-center justify-center">
-                <p className="text-2xl">Carregando...</p>
+            <div className=" flex flex-1 items-center justify-center">
+                <p className="text-2xl animate-bounce">Carregando...</p>
             </div>
         )
     }
