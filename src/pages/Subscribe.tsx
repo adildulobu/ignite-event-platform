@@ -3,6 +3,7 @@ import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Footer } from "../components/Footer";
 import { Logo } from "../components/Logo";
+import { MookupBackground } from "../components/MookupBackground";
 
 const CREATE_SUBSCRIBER_MUATTION = gql`
     mutation createSubscriber ($name: String!, $email: String!){
@@ -80,7 +81,7 @@ export function Subscribe() {
             </div>
             
             
-            <img src="/src/assets/code-mookup.png" alt="" />
+            <MookupBackground />
             <Footer />
         </div>
     )
