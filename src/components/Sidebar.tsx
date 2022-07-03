@@ -54,8 +54,9 @@ export function Sidebar(){
                             isOpen
                     ? 'fixed right-0 top-0 md:static md:flex'
                     : 'fixed -right-full top-0 md:static md:flex'
-                } z-50 mt-[1px]  max-h-full  w-screen min-w-[21.75rem] animate-slideFromRight flex-col
-                lg:w-[348px] bg-gray-700 p-6 border-l border-gray-600
+                    } z-50 mt-[1px]  max-h-full  w-screen animate-slideFromRight flex-col overflow-y-scroll
+                    lg:w-[348px] bg-gray-700 p-6 border-l border-gray-600 transition-all scrollbar-thin
+                    scrollbar-thumb-ignite-primary-dark scrollbar-track-green-500 md:w-[21.75rem]
                 }`}
             >
                 <div >
